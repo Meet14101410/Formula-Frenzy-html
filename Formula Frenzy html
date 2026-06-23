@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formula Frenzy</title>
+</head>
+<body>
+  <h1>Formula Frenzy</h1>
+  <p>What is H₂O?</p>
+
+  <button onclick="check('Water')">Water</button>
+  <button onclick="check('Oxygen')">Oxygen</button>
+  <button onclick="check('Hydrogen')">Hydrogen</button>
+
+  <p id="result"></p>
+
+  <script>
+    function check(ans){
+      document.getElementById("result").innerHTML =
+        ans === "Water" ? "Correct!" : "Wrong!";
+    }
+  </script>
+</body>
+</html>
