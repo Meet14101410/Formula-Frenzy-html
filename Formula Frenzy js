@@ -1,0 +1,9 @@
+function check(answer){
+  const result = document.getElementById("result");
+  
+  if(answer === "Water"){
+    result.textContent = "Correct!";
+  } else {
+    result.textContent = "Wrong! Try Again.";
+  }
+}
